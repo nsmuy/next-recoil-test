@@ -20,7 +20,7 @@ const About = () => {
             </div>
             <hr/>
             <div>
-                <Link href="/"><a>Home</a></Link>
+                <Link href="/">Home</Link>
             </div>
         </>
     );

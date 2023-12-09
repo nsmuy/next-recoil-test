@@ -11,6 +11,7 @@ const Home = () => {
   const [user, setUser] = useRecoilState(userState);
 
   //count increment処理
+  //incrementに引数を渡していないのに、cが入っているのはなぜ？
   const increment = c => {
     return c + 1;
   }
@@ -33,7 +34,7 @@ const Home = () => {
       </div>
       <hr />
       <div>
-        <Link href="/about"><a>About</a></Link>
+        <Link href="/about">About</Link>
       </div>
     </>
   );
